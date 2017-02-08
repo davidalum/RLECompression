@@ -1,5 +1,3 @@
-David Alummoottil and Anirudh Balachandran
-
 RLE Compression
 We created a modified RLE compression program, LOLS, which accepts two parameters, a text file and integer, the former containing the information to be compressed, and the latter indicating to the program how many parts to split the data into. The latter integer is known as number of parts/number of kids/number of threads because depending on if the program is using processes or threads, the data will be split up into more manageable chunks of data to be compressed. compressT_LOLS is the program using threads while compressR_LOLS and compressR_worker_LOLS uses processes. In order to test this program, we created a makefile. This makefile compiles and creates executables for each of the three source code files we have. The executable for compressT_LOLS.c and compressR_LOLS.c are the program names themselves (excluding the .c ). 
 
