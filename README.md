@@ -13,14 +13,22 @@ Our LOLS program implement with threads uses the concept of multiples threads in
 
 Output: 
 The output for our program depends completely on the input file. 
-		-  If the total number of characters is completely divisible by number of parts then the output each file gets the same number of characters. If it is not divisible then the number of extra character are added to the first N files where n is the number of extra characters.  
-		-  If all the characters are non-alpha character it just outputs an error  
-		-  If some of the characters are non-alpha characters and some are alpha characters than the input file completely ignore the process/threads that contain these non-alpha characters and only encodes the processes/threads which contain alpha characters  
-		-  If the total number of parts exceed the total number of characters then an error is outputted  
-		-  If the number of parts is greater than the total number of alpha characters for a particular process, then it outputs an error.  
-		-  If total number of parts is equal to zero then user is informed of this  
+		
+-  If the total number of characters is completely divisible by number of parts then the output each file gets the same number of characters. If it is not divisible then the number of extra character are added to the first N files where n is the number of extra characters.
+
+-  If all the characters are non-alpha character it just outputs an error 
+
+-  If some of the characters are non-alpha characters and some are alpha characters than the input file completely ignore the process/threads that contain these non-alpha characters and only encodes the processes/threads which contain alpha characters  
+
+-  If the total number of parts exceed the total number of characters then an error is outputted  
+
+-  If the number of parts is greater than the total number of alpha characters for a particular process, then it outputs an error.  
+
+-  If total number of parts is equal to zero then user is informed of this  
   
 - If total parts is not a number, an error is output. 
+
+
 All the outputs are as described in the assignment file and all errors are gracefully handled and the program comes to an end if an error is encountered either for the entire program or a particular thread/process. Examples of all these outputs can be found in the test cases file. 
 
 
