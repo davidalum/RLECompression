@@ -1,0 +1,15 @@
+Testing format:
+1. $ make
+2. $ ./compressR_LOLS/compressT_LOLS "filename" "# of processes/thread you want working on the compression" 
+
+
+Input text file: aabcccdddd with 2 processes/threads. 
+Split into two files:
+text_1: aabcc
+text_2: c4d 
+
+Input text file: aaaaaabbeeee with 3 processes/threads. 
+Split into three files: 
+text_1: 4a
+text_2: aabb
+text_3: 4e 
